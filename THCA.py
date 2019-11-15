@@ -1,3 +1,8 @@
+# hargai pembuat sc jika mau di hargai recode blh tuman jangan 
+# kita sama sama belajar progammer pak
+# see you
+# akses root work pak
+
 #!/usr/bin/env python2.7
 #
 # 
@@ -7,7 +12,7 @@
 # |  __  |/ _` |/ __| |/ / _ \ '__| |  ___/ '__/ _ \ 
 # | |  | | (_| | (__|   <  __/ |    | |   | | | (_) |
 # |_|  |_|\__,_|\___|_|\_\___|_|    |_|   |_|  \___/ 
-#          Hacking Tools by-Technical Dada
+#          Hacking Tools by-mrlinkerrorsystem
 
 import sys
 import argparse
@@ -44,7 +49,7 @@ def menu():
     print ("""
 MIT License
 
-Copyright (c) 2018 HACKERPRO
+Copyright (c) 2019 mrlinkerrorsystem
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -114,10 +119,10 @@ def menu():
    {6}--Web Hacking
    {7}--Private Web Hacking
    {8}--Post Exploitation
-   {0}--Install The HACKERPRO
+   {0}--Install The INDONESIA
    {99}-Exit
  """)
-    choice = raw_input("hackerpro~# ")
+    choice = raw_input("mrlinkerrorsystem~# ")
     os.system('clear')
     if choice == "1":
         info()
@@ -149,9 +154,9 @@ def updatehackerpro():
     print ("This Tool is Only Available for Linux and Similar Systems. ")
     choiceupdate = raw_input("Continue Y / N: ")
     if choiceupdate in yes:
-        os.system("git clone https://github.com/technicaldada/hackerpro.git")
-        os.system("cd hackerpro && sudo bash ./update.sh")
-        os.system("hackerpro")
+        os.system("git clone https://github.com/TeamHackerCyberArmyIndonesia/tools-Hacking.git")
+        os.system("cd tools-Hacking && sudo bash ./update.sh")
+        os.system("tools-Hacking")
 
 
 def doork():
